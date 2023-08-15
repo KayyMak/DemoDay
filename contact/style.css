@@ -1,0 +1,95 @@
+/* Set the height of the entire HTML document to 100% */
+html {
+    height: 100%;
+}
+
+/* Style for the 'name' element, making it orange with white text */
+#name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: rgb(255, 99, 71);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* Overall styling for the entire body */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Styling for the 'h1' element */
+h1 {
+   font-size: 30px;
+   text-align: center;
+}
+h2 {
+    text-align: center;
+}
+/* Styling for the 'h2' element, center-aligned */
+h3 {
+    text-align: center;
+
+}
+
+h4 {
+    text-align: center;
+    margin-right: 30px;
+}
+
+/* Default styling for all 'div' elements */
+div {
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 5px;
+}
+
+/* Styling for the navigation menu */
+nav {
+    padding: 10px;
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    
+}
+
+/* Styling for navigation items ('a' elements) */
+.items {
+    background-color: rgb(255, 99, 71);
+    border-radius: 8px;
+    color: white;
+}
+
+/* Styling for images in the website */
+img {
+    width: 20px;
+    height: 100px;
+}
+
+/* Styling for navigation items when hovered over */
+.items:hover {
+    opacity: 0.5;
+}
+
+/* Styling for 'a' elements */
+a {
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Styling for the 'flex' class, displaying elements as a flex container with space between them */
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+

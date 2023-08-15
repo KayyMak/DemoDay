@@ -1,6 +1,18 @@
-/* Set the height of the entire HTML document to 100% */
-html {
-    height: 100%;
+body {
+    background-color: silver;
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    text-align: left;
+}
+img {
+    width: 200px;
+    margin: 7px;
+    text-align: center;
 }
 
 /* Style for the 'name' element, making it orange with white text */
@@ -11,20 +23,6 @@ html {
     border-radius: 8px;
     padding: 5px;
 }
-
-
-
-/* Styling for the 'h1' element */
-h1 {
-   font-size: 20px;
-}
-
-/* Styling for the 'h2' element, center-aligned */
-h2 {
-    text-align: center;
-}
-
-
 
 /* Styling for the navigation menu */
 nav {
