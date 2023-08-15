@@ -1,0 +1,58 @@
+/* Set the height of the entire HTML document to 100% */
+html {
+    height: 100%;
+}
+
+/* Style for the 'name' element, making it orange with white text */
+#name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: rgb(255, 99, 71);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+
+/* Styling for the 'h1' element */
+h1 {
+   font-size: 20px;
+}
+
+/* Styling for the 'h2' element, center-aligned */
+h2 {
+    text-align: center;
+}
+
+
+
+/* Styling for the navigation menu */
+nav {
+    padding: 10px;
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    
+}
+
+/* Styling for navigation items ('a' elements) */
+.items {
+    background-color: rgb(255, 99, 71);
+    border-radius: 8px;
+    color: white;
+}
+
+
+/* Styling for navigation items when hovered over */
+.items:hover {
+    opacity: 0.5;
+}
+
+/* Styling for 'a' elements */
+a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
