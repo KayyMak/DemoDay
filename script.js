@@ -1,13 +1,22 @@
-var category = 'happiness'
-$.ajax({
-    method: 'GET',
-    url: 'https://api.api-ninjas.com/v1/quotes?category=' + category,
-    headers: { 'X-Api-Key': 'YOUR_API_KEY'},
-    contentType: 'application/json',
-    success: function(result) {
-        console.log(result);
-    },
-    error: function ajaxError(jqXHR) {
-        console.error('Error: ', jqXHR.responseText);
-    }
-});
+const url = "https://api.themotivate365.com/stoic-quote";
+
+fetch(url)
+
+.then(function(response){
+    return response.json();
+})
+
+.then(function(quoteJSON){
+    data = quoteJSON;
+    let qotd = data.quote;
+    let author = data.author;
+    console.log(data);
+
+    let qRef = document.getElementById("quote");
+    let aRef = document.getElementById("author");
+    
+    qRef.innerHTML = "Quote of the day: " + qotd;
+    aRef.innerHTML = "- " + author;
+})
+
+console.log(data)

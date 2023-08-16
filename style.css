@@ -3,22 +3,23 @@ html {
     height: 100%;
 }
 
-/* Style for the 'name' element, making it orange with white text */
-#name {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    background-color: rgb(255, 99, 71);
-    border-radius: 8px;
-    padding: 5px;
-}
-
 /* Overall styling for the entire body */
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
     margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    /* background-color: ; */
+}
+
+/* Style for the 'name' element, making it orange with white text */
+#name {
+    font-size: 25px;
+    background-color: rgb(255, 99, 71);
+    border-radius: 8px;
+    padding: 5px;
 }
 
 /* Styling for the 'h1' element */
@@ -33,7 +34,7 @@ h2 {
 
 /* Default styling for all 'div' elements */
 div {
-    font-family: Helvetica;
+    
     color: rgb(0, 0, 0);
     font-size: 17px;
     padding: 5px;
@@ -43,7 +44,7 @@ div {
 nav {
     padding: 10px;
     display: flex;
-    width: 30%;
+    width: 35%;
     justify-content: space-evenly;
     
 }
@@ -88,16 +89,7 @@ a {
 }
 
 /* Styling for the 'contact' element, a vertical flex container with a black background, white text, and black border */
-#contact {
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-    
-    background-color: rgb(255, 255, 255);
-    height: 100%;
-    color: whitesmoke;
-    border: 5px solid rgb(255, 255, 255);
-}
+
 
 /* Styling for the 'other' element, a vertical flex container with a white background and scrollable content */
 #other {
@@ -133,7 +125,7 @@ a {
 }
 
 /* Styling for 'h4' elements, adding left padding */
-h4 {
+#year {
     padding-left: 200px;
 }
 
@@ -168,15 +160,27 @@ img {
 }
 
 .fresh {
-    margin-left: 90px;
+    /* margin-left: 90px; */
 }
 
 .soph {
-    margin-left: 95px;
+    /* margin-left: 95px; */
 }
 
 #coding {
     margin-left: 180px;
     width: 280px;
     height: 250px;
+}
+
+.hobby {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+.qotd {
+    text-align: center;
 }
