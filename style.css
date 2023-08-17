@@ -20,6 +20,7 @@ body {
     background-color: rgb(255, 99, 71);
     border-radius: 8px;
     padding: 5px;
+    width: 15%;
 }
 
 /* Styling for the 'h1' element */
@@ -44,7 +45,7 @@ div {
 nav {
     padding: 10px;
     display: flex;
-    width: 35%;
+    width: 36%;
     justify-content: space-evenly;
     
 }
@@ -151,12 +152,16 @@ img {
     display: flex;
     margin: 20px;
     justify-content: space-between;
+    border-color: black;
+    align-items: center;
+    
 }
 
 /* Styling for paragraphs inside 'div' elements within 'academics' */
 #academics div p {
     width: 30vw;
     margin: 30px;
+   height: 15vh;
 }
 
 .fresh {
@@ -181,6 +186,17 @@ img {
     text-align: center;
 }
 
-.qotd {
+#quote {
     text-align: center;
+}
+
+#author {
+    text-align: center;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    width: 5%;
 }

@@ -3,6 +3,7 @@
 <head>
    <!-- Set the character encoding and define the webpage title -->
    <meta charset="UTF-8">
+   <link rel="icon" type="image/x-icon" href="images/kmLOGO">
    <title>Personal Website</title>
    <!-- Link the external CSS file 'style.css' for styling -->
    <link rel="stylesheet" href="style.css">
@@ -16,13 +17,14 @@
     
     <div class="flex">
         <!-- Display the name "Kay Makinde" with customized CSS styles -->
+        <img src="images/kmLOGO" id="logo">
         <div id="name">Kay Makinde</div>
 
         <!-- Navigation menu using 'nav' element and links ('a' elements) with customized CSS styles -->
         <nav>
             <a href="index.html"><div class="items" id="home">Home</div></a>
-            <a href="extra/extra.html"><div class="items" id="page">Hobbies</div></a>
-            <a href="contact/contact.html"><div class="items" id="hobby">Contact</div></a>
+            <a href="#hob"><div class="items" id="page">Hobbies</div></a>
+            <a href="#contact"><div class="items">Contact</div></a>
         </nav>
      </div> 
 
@@ -37,6 +39,10 @@
                 <!-- Placeholder text with padding and colored background -->
                 <p id="left">This is about me! I'm currently 15 years old and a sophomore at Antelope High School. I'm working towards a career in the software field.</p>
             </div>
+            
+                    <h3 id="quote"></h3>
+
+                    <h4 id="author"></h4>
             <!-- Academic section with divisions for different years -->
             <div id="academics">
                 <div>
@@ -54,9 +60,9 @@
                 </div>
                 
 
-                </div>
+            </div>
                 <div>
-                    <h1>Hobbies</h1>
+                    <h1 id="hob">Hobbies</h1>
                     <p><br> On my free time I like to play video games and watch TV. <br><br>Some favorite TV shows and games of mine are: </p>
                 <img src="images/snowfall.jpg" class="hobby">
                 <img src="images/top_boy.webp" class="hobby">
@@ -70,9 +76,7 @@
                     <h2>Phone: (111) - 111 - 1111</h2>
                     <br><br>
                     
-                    <h3 id="quote"></h3>
-
-                    <h4 id="author"></h4>
+                    
                 </div>
 
 
